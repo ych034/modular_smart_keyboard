@@ -50,3 +50,41 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Build & IDE
+build/
+dist/
+out/
+.vs/
+bin/
+obj/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+# LTspice huge waveforms & logs
+*.raw
+*.log
+*.fft
+*.op.raw
+
+# Altium Designer caches & auto-backups
+History/
+__Previews/
+Project Logs for */
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.Lock
+
+# MATLAB temp
+*.asv
+*.mex*
+slprj/
+
+# OS
+Thumbs.db
+.DS_Store
